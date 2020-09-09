@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* header */
+.header {
+    background-color:  rgb(184, 10, 155);
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* navbar menu */
+.menu {
+    background-color: rgb(216, 65, 191);
+    margin: 0 auto;
+    padding: 7px;
+    margin-bottom: 40px;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li:hover {
+    background-color: rgb(184, 10, 155);
+    border-radius: 6px;
+}
+
+.menu li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* wrapper */
+.card {
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 800px;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-title {
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+.content {
+    margin-top: 50px;
+    background-image: url(../image/konten.jpg);
+    padding: 300px;
+}
+
+.sec {
+    background-color: rgb(252, 252, 252, 0.6);
+    border: 0px;
+}
+
+.card-bot {
+    margin: 0 auto;
+    padding: 300px;
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    width: 900px;
+}
+
+.card-bot-ca {
+    width: 200px;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    margin: 0 auto;
+}
+
+.logo-title {
+    font-size: 50px;
+    color: rgb(128, 128, 128);
+}
+
+/* footer */
+.footer-top {
+    background-color:  rgb(184, 10, 155);
+    /* border-left: 2px solid white; */
+}
+
+.footer-top .row {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.column  {
+    margin: 10px;
+    padding: 10px;
+}
+
+.column a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.column.mid {
+    text-align: center;
+    color: #fff;
+}
+
+.column h3 {
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
